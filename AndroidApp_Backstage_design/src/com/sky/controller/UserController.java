@@ -66,7 +66,7 @@ public class UserController {
 		
 	}
 
-	//少一个单选框记住密码radio
+	//少一个单选框记住密码radi
 	@RequestMapping("/getHeader")
 	public void loginUser(HttpServletRequest request,HttpServletResponse response,String user_phone) throws IOException {
 		System.out.println("登录"+user_phone);
